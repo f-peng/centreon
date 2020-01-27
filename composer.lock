@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f97fd4dfb2816cead7edb18c9db65b6",
+    "content-hash": "d72ab90e42786d464698b881c3c7e2ee",
     "packages": [
         {
             "name": "curl/curl",
@@ -845,12 +845,12 @@
             "version": "v3.3.6.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/flack/quickform.git",
+                "url": "https://github.com/openpsa/quickform.git",
                 "reference": "7c17681bd62853e56dbb921e528ec61eeb649c30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/quickform/zipball/7c17681bd62853e56dbb921e528ec61eeb649c30",
+                "url": "https://api.github.com/repos/openpsa/quickform/zipball/7c17681bd62853e56dbb921e528ec61eeb649c30",
                 "reference": "7c17681bd62853e56dbb921e528ec61eeb649c30",
                 "shasum": ""
             },
@@ -2007,28 +2007,28 @@
         },
         {
             "name": "symfony/dotenv",
-            "version": "v4.3.8",
+            "version": "v4.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dotenv.git",
-                "reference": "62d93bf07edd0d76f033d65a7fd1c1ce50d28b50"
+                "reference": "b74a1638f53e3c65e4bbfc2a03c23fdc400fd243"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dotenv/zipball/62d93bf07edd0d76f033d65a7fd1c1ce50d28b50",
-                "reference": "62d93bf07edd0d76f033d65a7fd1c1ce50d28b50",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/b74a1638f53e3c65e4bbfc2a03c23fdc400fd243",
+                "reference": "b74a1638f53e3c65e4bbfc2a03c23fdc400fd243",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3"
             },
             "require-dev": {
-                "symfony/process": "^3.4.2|^4.0"
+                "symfony/process": "^3.4.2|^4.0|^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -2060,7 +2060,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2019-10-18T11:23:15+00:00"
+            "time": "2020-01-08T17:29:02+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -4762,12 +4762,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/centreon/centreon-test-lib.git",
-                "reference": "45d6b750e35a7a2e647703b6448ad82ae6d4e89f"
+                "reference": "cf2dad9d342db2f048e6016f67e1d2f87fdc93ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/centreon/centreon-test-lib/zipball/45d6b750e35a7a2e647703b6448ad82ae6d4e89f",
-                "reference": "45d6b750e35a7a2e647703b6448ad82ae6d4e89f",
+                "url": "https://api.github.com/repos/centreon/centreon-test-lib/zipball/cf2dad9d342db2f048e6016f67e1d2f87fdc93ae",
+                "reference": "cf2dad9d342db2f048e6016f67e1d2f87fdc93ae",
                 "shasum": ""
             },
             "require": {
@@ -4803,7 +4803,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2019-11-13T16:18:41+00:00"
+            "time": "2019-12-04T15:36:06+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -4834,6 +4834,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
