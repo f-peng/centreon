@@ -845,12 +845,12 @@
             "version": "v3.3.6.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/flack/quickform.git",
+                "url": "https://github.com/openpsa/quickform.git",
                 "reference": "7c17681bd62853e56dbb921e528ec61eeb649c30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/quickform/zipball/7c17681bd62853e56dbb921e528ec61eeb649c30",
+                "url": "https://api.github.com/repos/openpsa/quickform/zipball/7c17681bd62853e56dbb921e528ec61eeb649c30",
                 "reference": "7c17681bd62853e56dbb921e528ec61eeb649c30",
                 "shasum": ""
             },
@@ -2342,16 +2342,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.4.8",
+            "version": "v1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "f5bfc79c1f5bed6b2bb4ca9e49a736c2abc03e8f"
+                "reference": "e4f5a2653ca503782a31486198bd1dd1c9a47f83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/f5bfc79c1f5bed6b2bb4ca9e49a736c2abc03e8f",
-                "reference": "f5bfc79c1f5bed6b2bb4ca9e49a736c2abc03e8f",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/e4f5a2653ca503782a31486198bd1dd1c9a47f83",
+                "reference": "e4f5a2653ca503782a31486198bd1dd1c9a47f83",
                 "shasum": ""
             },
             "require": {
@@ -2367,7 +2367,7 @@
             "type": "composer-plugin",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 },
                 "class": "Symfony\\Flex\\Flex"
             },
@@ -2387,7 +2387,7 @@
                 }
             ],
             "description": "Composer plugin for Symfony",
-            "time": "2019-11-14T09:25:51+00:00"
+            "time": "2020-01-30T12:06:45+00:00"
         },
         {
             "name": "symfony/framework-bundle",
@@ -4762,12 +4762,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/centreon/centreon-test-lib.git",
-                "reference": "45d6b750e35a7a2e647703b6448ad82ae6d4e89f"
+                "reference": "cf2dad9d342db2f048e6016f67e1d2f87fdc93ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/centreon/centreon-test-lib/zipball/45d6b750e35a7a2e647703b6448ad82ae6d4e89f",
-                "reference": "45d6b750e35a7a2e647703b6448ad82ae6d4e89f",
+                "url": "https://api.github.com/repos/centreon/centreon-test-lib/zipball/cf2dad9d342db2f048e6016f67e1d2f87fdc93ae",
+                "reference": "cf2dad9d342db2f048e6016f67e1d2f87fdc93ae",
                 "shasum": ""
             },
             "require": {
@@ -4803,7 +4803,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2019-11-13T16:18:41+00:00"
+            "time": "2019-12-04T15:36:06+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -4834,6 +4834,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
