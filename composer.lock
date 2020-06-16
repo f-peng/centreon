@@ -845,12 +845,12 @@
             "version": "v3.3.6.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/flack/quickform.git",
+                "url": "https://github.com/openpsa/quickform.git",
                 "reference": "7c17681bd62853e56dbb921e528ec61eeb649c30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flack/quickform/zipball/7c17681bd62853e56dbb921e528ec61eeb649c30",
+                "url": "https://api.github.com/repos/openpsa/quickform/zipball/7c17681bd62853e56dbb921e528ec61eeb649c30",
                 "reference": "7c17681bd62853e56dbb921e528ec61eeb649c30",
                 "shasum": ""
             },
@@ -2342,32 +2342,32 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.4.8",
+            "version": "v1.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "f5bfc79c1f5bed6b2bb4ca9e49a736c2abc03e8f"
+                "reference": "44c7de554df78da0a635a215a9d604e5e4ecc462"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/f5bfc79c1f5bed6b2bb4ca9e49a736c2abc03e8f",
-                "reference": "f5bfc79c1f5bed6b2bb4ca9e49a736c2abc03e8f",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/44c7de554df78da0a635a215a9d604e5e4ecc462",
+                "reference": "44c7de554df78da0a635a215a9d604e5e4ecc462",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0",
-                "php": "^7.0"
+                "composer-plugin-api": "^1.0|^2.0",
+                "php": ">=7.1"
             },
             "require-dev": {
-                "composer/composer": "^1.0.2",
-                "symfony/dotenv": "^3.4|^4.0|^5.0",
-                "symfony/phpunit-bridge": "^3.4.19|^4.1.8|^5.0",
-                "symfony/process": "^2.7|^3.0|^4.0|^5.0"
+                "composer/composer": "^1.0.2|^2.0",
+                "symfony/dotenv": "^4.4|^5.0",
+                "symfony/phpunit-bridge": "^4.4|^5.0",
+                "symfony/process": "^3.4|^4.4|^5.0"
             },
             "type": "composer-plugin",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.8-dev"
                 },
                 "class": "Symfony\\Flex\\Flex"
             },
@@ -2387,7 +2387,7 @@
                 }
             ],
             "description": "Composer plugin for Symfony",
-            "time": "2019-11-14T09:25:51+00:00"
+            "time": "2020-06-15T15:14:13+00:00"
         },
         {
             "name": "symfony/framework-bundle",
@@ -4762,17 +4762,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/centreon/centreon-test-lib.git",
-                "reference": "45d6b750e35a7a2e647703b6448ad82ae6d4e89f"
+                "reference": "24f45ae86d44868f349080c4242e298a5e983e8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/centreon/centreon-test-lib/zipball/45d6b750e35a7a2e647703b6448ad82ae6d4e89f",
-                "reference": "45d6b750e35a7a2e647703b6448ad82ae6d4e89f",
+                "url": "https://api.github.com/repos/centreon/centreon-test-lib/zipball/24f45ae86d44868f349080c4242e298a5e983e8b",
+                "reference": "24f45ae86d44868f349080c4242e298a5e983e8b",
                 "shasum": ""
             },
             "require": {
                 "behat/behat": "^3.0",
-                "guzzlehttp/guzzle": "~6.0"
+                "guzzlehttp/guzzle": "~6.0",
+                "phpstan/phpstan": "^0.12.14"
             },
             "suggest": {
                 "behat/mink": "Browser controller/emulator abstraction for PHP",
@@ -4783,7 +4784,8 @@
                 "psr-4": {
                     "Centreon\\Test\\Behat\\": "src/behat",
                     "Centreon\\Test\\Mock\\": "src/mock",
-                    "Centreon\\Test\\Traits\\": "src/traits"
+                    "Centreon\\Test\\Traits\\": "src/traits",
+                    "Centreon\\PHPStan\\": "src/PHPStan"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4803,7 +4805,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2019-11-13T16:18:41+00:00"
+            "time": "2020-04-06T08:35:40+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -4834,6 +4836,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -5439,6 +5442,48 @@
                 "stub"
             ],
             "time": "2019-10-03T11:07:50+00:00"
+        },
+        {
+            "name": "phpstan/phpstan",
+            "version": "0.12.29",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpstan.git",
+                "reference": "9771daaf6b95c6313b908d0bcdee0afcd51f838a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9771daaf6b95c6313b908d0bcdee0afcd51f838a",
+                "reference": "9771daaf6b95c6313b908d0bcdee0afcd51f838a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.12-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "time": "2020-06-14T14:10:59+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
